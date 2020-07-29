@@ -1,0 +1,53 @@
+@startuml
+
+skinparam ArrowColor DarkSlateGray
+skinparam FontColor DarkSlateGray
+
+skinparam RoundCorner 12
+skinparam Shadowing false
+
+skinparam Title {
+  FontColor DarkSlateGray
+  FontSize 36
+  FontStyle bold
+}
+
+skinparam Sequence {
+  LifeLineBorderColor DarkSlateGray
+  GroupHeaderFontColor DarkSlateGray
+  GroupFontColor DarkSlateGray
+  GroupBorderColor DarkSlateGray
+  GroupBorderThickness 1
+}
+
+skinparam actor {
+  BackgroundColor Gold
+  BorderColor DarkSlateGray
+  FontColor DarkSlateGray
+}
+
+skinparam boundary {
+  BackgroundColor Gold
+  BorderColor DarkSlateGray
+  FontColor DarkSlateGray
+}
+
+skinparam participant {
+  BackgroundColor Tomato
+  BorderColor Tomato
+  FontColor White
+}
+
+skinparam database {
+  BackgroundColor LightSkyBlue
+  BorderColor DarkSlateGray
+  FontColor DarkSlateGray
+}
+
+skinparam note {
+  BackgroundColor LightGreen
+  BorderColor LightGreen
+  FontColor DarkSlateGray
+}
+
+@enduml
